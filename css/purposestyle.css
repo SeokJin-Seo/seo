@@ -69,3 +69,8 @@ a{
 .head-item li:hover > ul > li{
   padding : 10px;
 }
+.hi{
+width : 100%;
+height: 5000px;
+text-align : center;
+}
