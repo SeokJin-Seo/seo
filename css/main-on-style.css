@@ -1,0 +1,59 @@
+body{
+  background: ;
+}
+div{
+  font-family: Big John PRO;
+}
+  .main{
+    font-weight: bold;
+    font-size : 45pt;
+    color: black;
+    background-color: white;
+    border : radial-gradient(#42f4e2,#fff);
+    box-shadow: 2px 2px 150px 5px #ffe4b4;
+    width:580px;
+    height:580px;
+    border-radius: 100%;
+    text-align: center;
+    position: absolute;
+    margin-left: -290px;
+    left : 50%;
+    margin-top: -290px;
+    top : 50%;
+  }
+  .main-title{
+    display: inline-block;
+    line-height: 580px;
+  }
+  .sub{
+    font-size: 25pt;
+  }
+  .sub a:hover{
+    border-bottom: 2px solid black;
+  }
+  .sub-left{
+    margin-left: 65px;
+    position :absolute;
+    top:50%
+  }
+  .sub-right{
+    position :absolute;
+    margin-left:92%;
+    top: 50%;
+
+  }
+  #left2{}
+  #right2{}
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color : black;
+  }
+  #button{
+    width : 50px;
+    height: 50px;
+    position: absolute;
+    display: inline-block;
+  }

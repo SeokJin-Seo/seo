@@ -1,0 +1,71 @@
+.head{
+  height: 70px;
+  width : 100%;
+  display: flex;
+  align-items: center;
+  position : fixed;
+  padding-top: 10px;
+  top : 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 2px 2px 100px 2px #ffe4b4;
+}
+.head-img{
+  margin-left: 50px;
+}
+#back{
+  width : 40px; height: 40px;
+}
+
+.head-title{
+  margin-left: 50px;
+  font-size: 40px;
+  font-family: 'Big John PRO';
+}
+.head-item{
+  margin-left: auto;
+}
+.head-name{
+  display : flex;
+  margin-left: auto;
+  margin-right: 60px;
+  font-size: 2em;
+  font-family: 'Big John PRO';
+  font-weight: bold;
+}
+ul, li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a{
+  color : black;
+  text-decoration: inherit;
+}
+.head-item > ul{
+  display: inline-block;
+}
+.head-item > ul > li{
+  display: inline-block;
+  padding : 0 80px;
+}
+.head-item > ul > li:hover > a{
+  border-bottom: 2px solid black;
+}
+.head-item li{
+  position: relative;
+}
+.head-item ul ul{
+  display: none;
+  position: absolute;
+  left: 30%;
+}
+.head-item li:hover > ul{
+  display: block;
+  padding : 20px;
+
+}
+.head-item li:hover > ul > li{
+  padding : 10px;
+}

@@ -1,0 +1,44 @@
+.head{
+  height: 70px;
+  width : 100%;
+
+  display: flex;
+  align-items: center;
+  position : fixed;
+  padding-top: 10px;
+  top : 0px;
+  left: 0px;
+  right: 0px;
+  box-shadow: 2px 2px 100px 2px #ffe4b4;
+}
+.head-img{
+  margin-left: 50px;
+}
+#back{
+  width : 40px; height: 40px;
+}
+
+.head-title{
+  margin-left: 50px;
+  font-size: 40px;
+  font-family: 'Big John PRO';
+}
+.head-item{
+  margin-left: auto;
+}
+.head-item a:hover{
+  color : black;
+  border-bottom: 2px solid black;
+}
+.head-name{
+  display : flex;
+  margin-left: auto;
+  margin-right: 60px;
+  font-size: 2em;
+  font-family: 'Big John PRO';
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
